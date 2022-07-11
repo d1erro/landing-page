@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    background-color: #1F2937;
+    background-color: #666f7b;
 }
 
 .nav-bar {
@@ -42,7 +42,7 @@ header {
 }
 
 .nav-bar-link {
-    color: whitesmoke;
+    color: #152729;
     text-decoration: none;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -94,4 +94,60 @@ header {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+.mid {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.h2-mid {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+
+.high-mountains {
+    display: flex;
+    justify-content: center;
+}
+
+.mountain-element {
+    padding: 5px;
+}
+
+.p-mountain-name {
+    text-align: center;
+    color: #666f7b;
+}
+
+.p-mountain-height {
+    text-align: center;
+    font-size: 12px;
+    color: #666f7b;
+}
+
+.mountain-img {
+    height: 150px;
+    width: auto;
+    border-radius: 10px;
+}
+
+blockquote {
+    background-color: #666f7b;
+    color: #E5E7EB;
+    padding-inline: 10%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: end;
+    padding-top: 20px;
+    font-size: 16px;
 }
